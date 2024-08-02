@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Validation</title>
+</head>
+<body>
+    <h1> Date Validation</h1>
+    <form action="./Response.html" method="get">
+        <label for="date"> enter the date </label>
+        <input type="text" name="dates" id="date"
+        required
+        pattern="(19[0-9]{2}|20[0-9]{2})-(0[1-9]||1[0-2])-(0[1-9]||1[0-9]||2[0-9]||3[0-1])"
+        title="Date format is yyyy-mm-dd">
+
+        <input type="submit" >
+    </form>
+</body>
+</html>
